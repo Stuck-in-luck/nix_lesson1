@@ -11,11 +11,10 @@ public class Main {
 }
 
 public class StringArray {
-    String a,b,c,d,e,f,g,h; // ширина коробки
+    String a,b,c,d,e,f,g,h;
    String  arr[];
 
-    // Конструктор
-    StringArray() {
+   StringArray() {
         a = arr[0];
         b = arr[1];
         c = arr[2];
@@ -26,16 +25,13 @@ public class StringArray {
         h = arr[7];
 
     }
-
-    // вычисляем объём коробки
     String getArray() {
         return StringArray[a,b,c,d,e,f,g,h] ;
-
-    }
+   }
 }
 
 
-}
+
 
 
 
